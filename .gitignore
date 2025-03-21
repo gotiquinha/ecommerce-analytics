@@ -1,0 +1,37 @@
+# Arquivos de ambiente e configuração
+.env
+*.env
+.env.*
+
+# Arquivos de dados
+data/*.json
+data/*.csv
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambiente virtual
+venv/
+env/
+ENV/
+
+# Logs
+*.log
+logs/
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de distribuição
+dist/
+build/
+*.egg-info/ 
